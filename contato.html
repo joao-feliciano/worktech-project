@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a nossa empresa de tecnologia.">
+    <link rel="stylesheet" href="style.css">
+    <title>WorkTech</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contato</h1>
+        <!-- Formulário de contato -->
+        <form action="mensagem_enviada.html" method="POST" onsubmit="return enviarMensagem()">
+            <!-- Campo para o nome -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <!-- Campo para o email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <!-- Campo para a mensagem -->
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <!-- Botão de envio -->
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <!-- Script para redirecionar após enviar o formulário -->
+    <script>
+        function enviarMensagem() {
+            // Redireciona para a página de mensagem enviada
+            window.location.href = "mensagem_enviada.html";
+            // Impede o envio real do formulário
+            return false;
+        }
+    </script>
+</body>
+</html>

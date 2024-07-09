@@ -1,0 +1,115 @@
+/* Estilo aplicado ao corpo do documento */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Definindo a fonte padrão */
+    line-height: 1.6; /* Definindo a altura da linha */
+    margin: 0; /* Removendo margens padrão */
+    padding: 0; /* Removendo preenchimentos padrão */
+    background-color: #ffffff; /* Definindo a cor de fundo */
+    color: #333; /* Definindo a cor do texto */
+}
+
+/* Estilos aplicados ao cabeçalho */
+header {
+    padding: 20px; /* Adicionando preenchimento ao redor do cabeçalho */
+    text-align: center; /* Centralizando o texto no cabeçalho */
+}
+
+/* Estilos aplicados à lista de navegação */
+nav ul {
+    list-style: none; /* Removendo marcadores da lista */
+    padding: 0; /* Removendo margens e preenchimentos */
+}
+
+/* Estilos aplicados aos itens da lista de navegação */
+nav ul li {
+    display: inline; /* Exibindo os itens em linha */
+    margin: 0 15px; /* Adicionando margens entre os itens */
+}
+
+/* Estilos aplicados aos links de navegação */
+nav ul li a {
+    color: #007BFF; /* Definindo a cor dos links */
+    text-decoration: none; /* Removendo o sublinhado dos links */
+    font-weight: bold; /* Tornando o texto dos links em negrito */
+}
+
+/* Estilos aplicados aos links ao passar o mouse */
+nav ul li a:hover {
+    color: #0056b3; /* Alterando a cor dos links ao passar o mouse */
+}
+
+/* Estilos aplicados ao conteúdo principal */
+main {
+    padding: 40px; /* Adicionando preenchimento ao redor do conteúdo principal */
+    text-align: center; /* Centralizando o texto no conteúdo principal */
+}
+
+/* Estilos aplicados aos cabeçalhos */
+h1 {
+    color: #0056b3; /* Definindo a cor dos cabeçalhos */
+}
+
+/* Estilos aplicados aos parágrafos */
+p {
+    max-width: 600px; /* Definindo a largura máxima dos parágrafos */
+    margin: 0 auto; /* Centralizando os parágrafos */
+}
+
+/* Estilos aplicados ao formulário de contato */
+form {
+    max-width: 600px; /* Definindo a largura máxima do formulário */
+    margin: 0 auto; /* Centralizando o formulário */
+}
+
+/* Estilos aplicados aos rótulos dos campos do formulário */
+form label {
+    display: block; /* Exibindo os rótulos como blocos */
+    margin-bottom: 10px; /* Adicionando margem abaixo dos rótulos */
+    font-weight: bold; /* Tornando o texto dos rótulos em negrito */
+}
+
+/* Estilos aplicados aos campos de entrada do formulário */
+form input,
+form textarea {
+    width: 100%; /* Definindo a largura total dos campos */
+    padding: 10px; /* Adicionando preenchimento dentro dos campos */
+    margin-bottom: 20px; /* Adicionando margem abaixo dos campos */
+    border: 1px solid #ccc; /* Definindo a borda dos campos */
+    border-radius: 4px; /* Arredondando os cantos dos campos */
+}
+
+/* Estilos aplicados ao botão do formulário */
+button {
+    padding: 10px 20px; /* Adicionando preenchimento dentro do botão */
+    background-color: #007BFF; /* Definindo a cor de fundo do botão */
+    color: white; /* Definindo a cor do texto do botão */
+    border: none; /* Removendo a borda do botão */
+    border-radius: 4px; /* Arredondando os cantos do botão */
+    cursor: pointer; /* Alterando o cursor ao passar o mouse sobre o botão */
+}
+
+/* Estilos aplicados ao botão ao passar o mouse */
+button:hover {
+    background-color: #0056b3; /* Alterando a cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilos aplicados à galeria de imagens */
+.gallery {
+    display: flex; /* Exibindo os itens da galeria como flexíveis */
+    justify-content: center; /* Centralizando as imagens horizontalmente */
+    flex-wrap: wrap; /* Permitindo a quebra de linha para as imagens */
+    gap: 20px; /* Adicionando espaçamento entre as imagens */
+}
+
+/* Estilos aplicados às imagens da galeria */
+.gallery img {
+    max-width: 100%; /* Definindo a largura máxima das imagens */
+    height: auto; /* Definindo a altura automática das imagens */
+    border-radius: 8px; /* Arredondando os cantos das imagens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionando sombra ao redor das imagens */
+}
+
+h2 {
+    color: #0056b3;
+}
+
