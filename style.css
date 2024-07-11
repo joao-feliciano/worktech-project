@@ -113,3 +113,23 @@ h2 {
     color: #0056b3;
 }
 
+/* Estilos aplicados à tabela de comparação */
+table {
+    width: 50%; /* Definindo a largura da tabela */
+    margin: 0 auto; /* Centralizando a tabela */
+    border-collapse: collapse; /* Removendo espaços entre as células */
+}
+
+table th,
+table td {
+    padding: 10px; /* Adicionando preenchimento às células */
+    text-align: center; /* Centralizando o texto nas células */
+    border: 1px solid #ccc; /* Adicionando borda às células */
+}
+
+/* Adicionando estilo ao título da tabela */
+.title {
+    text-align: center; /* Centralizando o título */
+    font-size: 24px; /* Aumentando o tamanho da fonte do título */
+    margin-bottom: 20px; /* Adicionando margem inferior ao título */
+}
