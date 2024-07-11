@@ -109,6 +109,7 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionando sombra ao redor das imagens */
 }
 
+/* Adicionando cor azul ao título da tabela */
 h2 {
     color: #0056b3;
 }
